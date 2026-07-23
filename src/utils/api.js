@@ -1,6 +1,6 @@
 // src/utils/api.js
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001/api';
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://mayoora-backend-d18o.onrender.com/api';
 
 const getHeaders = () => {
   const headers = {};
